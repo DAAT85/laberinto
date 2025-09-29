@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Jujutsu";
+    src: url("Jujutsu\ Kaisen.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: beige;
+}
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h1, h2{
+    font-family: "Jujutsu";
+    text-shadow: 
+    -2px -2px 0 yellow,
+    2px -2px 0 yellow,
+    -2px  2px 0 yellow,
+    2px  2px 0 yellow
+}
+
+div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+}
+
+canvas{
+    border: 2px solid black;
+}
+
+.container-parent{
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.container-game {
+    display: flex;          
+    align-items: center;    
+    gap: 20px;              
+}
+
+.game-img {
+    width: 150px;          
+    height: auto;           
+}
